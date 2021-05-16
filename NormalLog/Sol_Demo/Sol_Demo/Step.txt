@@ -1,0 +1,7 @@
+﻿Step 1:
+Download following nuget package from nuget.
+Serilog.AspNetCore
+Serilog.Sinks.File
+
+Step 2:
+Go to Program.cs file. [Check source Code]

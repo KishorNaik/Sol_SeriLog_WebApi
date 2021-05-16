@@ -1,0 +1,49 @@
+2021-05-16 12:24:31.336 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-16 12:24:31.360 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:40801/swagger/index.html - -
+2021-05-16 12:24:31.411 +05:30 [INF] Hosting environment: Development
+2021-05-16 12:24:31.413 +05:30 [INF] Content root path: C:\Users\KISHOR\Desktop\Sol_Demo\Sol_Demo
+2021-05-16 12:24:31.515 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:40801/swagger/index.html - - - 200 - text/html;charset=utf-8 157.7941ms
+2021-05-16 12:24:31.596 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:40801/swagger/v1/swagger.json - -
+2021-05-16 12:24:31.661 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:40801/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 65.2800ms
+2021-05-16 12:24:37.101 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:40801/WeatherForecast - -
+2021-05-16 12:24:37.124 +05:30 [INF] Executing endpoint 'Sol_Demo.Controllers.WeatherForecastController.Get (Sol_Demo)'
+2021-05-16 12:24:37.149 +05:30 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Sol_Demo.WeatherForecast] Get() on controller Sol_Demo.Controllers.WeatherForecastController (Sol_Demo).
+2021-05-16 12:24:37.213 +05:30 [INF] Executing action method Sol_Demo.Controllers.WeatherForecastController.Get (Sol_Demo) - Validation state: "Valid"
+2021-05-16 12:24:39.653 +05:30 [INF] Random object is created
+2021-05-16 12:24:42.164 +05:30 [INF] Executed action method Sol_Demo.Controllers.WeatherForecastController.Get (Sol_Demo), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4944.0094ms.
+2021-05-16 12:24:42.171 +05:30 [INF] Executing ObjectResult, writing value of type 'Sol_Demo.WeatherForecast[]'.
+2021-05-16 12:24:45.464 +05:30 [INF] Executed action Sol_Demo.Controllers.WeatherForecastController.Get (Sol_Demo) in 8309.3231ms
+2021-05-16 12:24:45.466 +05:30 [INF] Executed endpoint 'Sol_Demo.Controllers.WeatherForecastController.Get (Sol_Demo)'
+2021-05-16 12:24:45.468 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:40801/WeatherForecast - - - 200 - application/json;+charset=utf-8 8366.5982ms
+2021-05-16 12:25:21.532 +05:30 [INF] Now listening on: http://localhost:5000
+2021-05-16 12:25:21.579 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-16 12:25:21.581 +05:30 [INF] Hosting environment: Development
+2021-05-16 12:25:21.583 +05:30 [INF] Content root path: C:\Users\KISHOR\Desktop\Sol_Demo\Sol_Demo
+2021-05-16 12:25:22.106 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - -
+2021-05-16 12:25:22.139 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - - - 301 0 - 34.9517ms
+2021-05-16 12:25:22.149 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-05-16 12:25:22.202 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 52.2323ms
+2021-05-16 12:25:22.211 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js - -
+2021-05-16 12:25:22.211 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - -
+2021-05-16 12:25:22.211 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js - -
+2021-05-16 12:25:22.250 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-05-16 12:25:22.250 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-05-16 12:25:22.250 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-05-16 12:25:22.257 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 45.9245ms
+2021-05-16 12:25:22.257 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - - - 200 142933 text/css 45.4671ms
+2021-05-16 12:25:22.257 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 45.1852ms
+2021-05-16 12:25:22.357 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-05-16 12:25:22.376 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - -
+2021-05-16 12:25:22.379 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-05-16 12:25:22.382 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - - - 200 628 image/png 6.5896ms
+2021-05-16 12:25:22.421 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 63.4089ms
+2021-05-16 12:25:29.038 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/WeatherForecast - -
+2021-05-16 12:25:29.060 +05:30 [INF] Executing endpoint 'Sol_Demo.Controllers.WeatherForecastController.Get (Sol_Demo)'
+2021-05-16 12:25:29.076 +05:30 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Sol_Demo.WeatherForecast] Get() on controller Sol_Demo.Controllers.WeatherForecastController (Sol_Demo).
+2021-05-16 12:25:29.127 +05:30 [INF] Executing action method Sol_Demo.Controllers.WeatherForecastController.Get (Sol_Demo) - Validation state: "Valid"
+2021-05-16 12:25:34.493 +05:30 [INF] Random object is created
+2021-05-16 12:25:38.250 +05:30 [INF] Executed action method Sol_Demo.Controllers.WeatherForecastController.Get (Sol_Demo), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9111.4409ms.
+2021-05-16 12:25:38.258 +05:30 [INF] Executing ObjectResult, writing value of type 'Sol_Demo.WeatherForecast[]'.
+2021-05-16 12:25:38.273 +05:30 [INF] Executed action Sol_Demo.Controllers.WeatherForecastController.Get (Sol_Demo) in 9189.2781ms
+2021-05-16 12:25:38.275 +05:30 [INF] Executed endpoint 'Sol_Demo.Controllers.WeatherForecastController.Get (Sol_Demo)'
+2021-05-16 12:25:38.277 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5000/WeatherForecast - - - 200 - application/json;+charset=utf-8 9239.5753ms

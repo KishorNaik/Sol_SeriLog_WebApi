@@ -1,0 +1,26 @@
+﻿Step 1:
+Download following nuget package from nuget.
+Serilog
+Serilog.AspNetCore
+Serilog.Sinks.MSSqlServer
+Serilog.Settings.Configuration
+
+Step 2:
+Open the appsettings.json file from the project and enter the following information:
+
+"Serilog": {
+    "MinimumLevel": "Information",
+    "WriteTo": [
+      {
+        "Name": "MSSqlServer",
+        "Args": {
+          "connectionString": "Data Source=DESKTOP-JM6N8TL;Initial Catalog=SeriLog;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False",
+          "tableName": "Log",
+          "autoCreateSqlTable": true
+        }
+      }
+    ]
+  }
+
+Step 2:
+Go to Program.cs file. [Check source Code]
